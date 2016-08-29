@@ -14,6 +14,7 @@ setup(
         ],
     },
     install_requires=[
+        'sqlalchemy==1.0.14',
     ],
     #    package_data = {
     #        'river': [

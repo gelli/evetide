@@ -1,2 +1,7 @@
+import database
+
+
 def main():
-    print "Hello Chris"
+    session = database.session()
+    for feed in session.query(database.Feed):
+        print feed
